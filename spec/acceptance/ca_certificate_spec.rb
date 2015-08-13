@@ -10,7 +10,7 @@ describe 'ca_certificate' do
         Exec {
           path => '/bin:/usr/bin:/sbin:/usr/sbin',
         }
-        ca_certificate { 'puppet-ca.crt':
+        ca_certificate { 'puppet-ca':
           source => '/var/lib/puppet/ssl/certs/ca.pem',
         }
       EOS
