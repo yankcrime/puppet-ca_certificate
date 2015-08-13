@@ -1,0 +1,10 @@
+.vagrant
+*~
+.vagrantuser
+*.swp
+tags
+*.orig
+*.rej
+Gemfile.lock
+log
+pkg
