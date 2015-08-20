@@ -10,4 +10,5 @@ HOSTS:
     user: ubuntu
     distmoduledir: /etc/puppet/modules
 CONFIG:
+  type: foss
   openstack_network: beaker
