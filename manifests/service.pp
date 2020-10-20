@@ -4,7 +4,7 @@
 #
 class ca_certificate::service {
 
-  exec { 'dpkg-reconfigure ca-certificates':
+  exec { '/usr/sbin/dpkg-reconfigure ca-certificates':
     unless      => '/bin/ls /etc/ssl/certs/puppet-ca.crt',
     refreshonly => true,
   }
